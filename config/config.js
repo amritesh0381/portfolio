@@ -4,7 +4,7 @@ import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg
 import { } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
-  name: "Hashir",
+  name: "Amritesh",
   links: [
     {
       title: "About",
@@ -24,13 +24,13 @@ export const navigation = {
     },
     {
       title: "Blog",
-      link: "https://medium.com/@hashirshoaeb",
+      link: "https://medium.com/@ammriteshh",
     }
   ],
 }
 export const intro = {
-  title: "Hey, I'm Hashir",
-  description: "A Computer Engineer creating mobile apps and static websites.",
+  title: "Hey, I'm Amritesh Singh",
+  description: "A Passionate Full Stack Web Developer and problem solver with a keen interest in exploring the tech world and continuously learning new technologies.",
   image: profile.src,
   buttons: [
     {
@@ -40,7 +40,7 @@ export const intro = {
     },
     {
       title: "Resume",
-      link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+      link: "https://drive.google.com/drive/u/0/my-drive",
       isPrimary: false,
     },
   ],
@@ -49,9 +49,8 @@ export const intro = {
 export const about = {
   title: "Who I am",
   description: [
-    "I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
-    "The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
-    "When I’m not programming, I focus on my hobbies which are: diary writing, doodling, meeting people and growing my network.",
+    "I am an undergraduate Computer Science student at Lovely Professional University, is passionate about technology and software development.",
+    "With experience in Web and Mobile Testing using Selenium, Amritesh is also a skilled problem solver in Data Structures and Algorithms (DSA), continuously working to enhance programming and development skills.",
   ],
 }
 
@@ -59,8 +58,8 @@ export const work = {
   title: "What I do",
   cards: [
     {
-      title: "Mobile App Development",
-      description: "I create pixel perfect iOS and Andriod apps using Flutter.",
+      title: "Problem Solver",
+      description: "I have a strong background in solving algorithmic puzzles on LeetCode (DSA).",
       icons: null,
     },
     {
@@ -75,36 +74,36 @@ export const projects = {
   title: "Projects",
   cards: [
     {
-      title: "StarBook",
-      description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
+      title: "QR Code Generator",
+      description: "A QR Code Generator using HTML and CSS.",
       icons: [
         {
-          icon: faAppStore,
-          link: "https://apps.apple.com/us/app/starbook-journal-ai-diary/id1552418289",
+          // icon: faAppStore,
+          // link: "https://apps.apple.com/us/app/starbook-journal-ai-diary/id1552418289",
         },
         {
           icon: faGithub,
-          link: "https://github.com/hashirshoaeb/star_book",
+          link: "https://github.com/amritesh0381/QR-Code-Generator",
         },
       ]
     },
     {
-      title: "QuranTalk",
-      description: "An emotional well being and mental health app. The app helps people to navigate their emotions in the light of the Quran.",
+      title: "Random Password Generator",
+      description: "A Random Password Generator which creates random passwords to help users.",
       icons: [
         {
-          icon: faAppStore,
-          link: "https://apps.apple.com/us/app/qurantalk/id1563425149",
+          // icon: faAppStore,
+          // link: "https://apps.apple.com/us/app/qurantalk/id1563425149",
         },
         {
           icon: faGooglePlay,
-          link: "https://play.google.com/store/apps/details?id=com.ayahemotion.quran_talk",
+          link: "https://github.com/amritesh0381/Random-Password-Generator",
         },
       ]
     },
     {
       title: "Portfolio",
-      description: "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
+      description: "A portfolio website template that helps me showcase my work, projects and skills as a software developer and Problem Solver.",
       icons: [
         {
           icon: faGithub,
@@ -121,12 +120,12 @@ export const contact = {
   buttons: [
     {
       title: "Email Me",
-      link: "mailto:hashirshoaeb@gmail.com",
+      link: "amritesh6767@gmail.com",
       isPrimary: true,
     },
     {
-      title: "Schedule Meeting",
-      link: "https://topmate.io/hashirshoaeb",
+      title: "LinkedIn",
+      link: "https://www.linkedin.com/in/amriteshsingh1077/",
       isPrimary: false,
     },
   ]
@@ -135,35 +134,35 @@ export const contact = {
 // SEARCH ENGINE 
 export const SEO = {
   // 50 - 60 char  
-  title: "Hashir Shoaib | Computer Engineer | Flutter | Reactjs developer",
+  title: "Amritesh Singh | Computer Engineer | Web Developer | Problem Solver",
   description: "I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.",
   image: profile.src,
 }
 
 export const links = {
   image: profile.src,
-  title: "@hashirshoaeb",
-  description: "Computer Engineer | Flutter | Reactjs Developer",
+  title: "@ammriteshh",
+  description: "Computer Engineer | Web Developer | Problem Solver",
   cards: [
     {
       title: "My website",
       link: "https://hashirshoaeb.com/",
     },
     {
-      title: "QuranTalk App",
-      link: "https://www.qurantalk.app/",
+      title: "LeetCode",
+      link: "https://leetcode.com/u/amriteshsingh0381/",
     },
     {
-      title: "StarBook App",
-      link: "https://starbook.dev/",
+      title: "Email",
+      link: "amritesh6767@gmail.com",
     },
     {
       title: "My GitHub",
-      link: "https://github.com/hashirshoaeb/",
+      link: "https://github.com/amritesh0381",
     },
     {
       title: "My LinkedIn",
-      link: "https://www.linkedin.com/in/hashirshoaeb/",
+      link: "https://www.linkedin.com/in/amriteshsingh1077/",
     },
   ]
 }
